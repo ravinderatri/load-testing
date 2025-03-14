@@ -1,0 +1,11 @@
+create-dmg \
+  "dist/ui.app" \
+  "dist/" \
+  --overwrite \
+  --dmg-title="Load-Testing Installer" \
+  --app-drop-link 200 150 \
+  --icon-size 128 \
+  --background "background.png" \
+  --window-pos 200 200 \
+  --window-size 600 400 \
+  --icon "ui.app" 100 150
